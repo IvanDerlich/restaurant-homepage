@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-hompage",
+  "version": "1.0.0",
+  "description": "A restaurant homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanDerlich/restaurant-homepage.git"
+  },
+  "author": "Ivan Derlich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanDerlich/restaurant-homepage/issues"
+  },
+  "homepage": "https://github.com/IvanDerlich/restaurant-homepage#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
