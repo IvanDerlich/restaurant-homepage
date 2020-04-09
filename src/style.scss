@@ -1,5 +1,5 @@
 #main{
-  height:100vh;
+  height:130vh;
   background-image: url("img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,4 +45,15 @@ footer {
   border-right-color: rgb(68, 66, 66);  
   border-right-width: 2px;
   border-right-style: solid;
+}
+
+.menu{
+  display: block;
+  max-width:50vw;    
+  width: auto;
+  height: auto;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
