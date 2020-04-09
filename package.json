@@ -21,6 +21,8 @@
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "webpack": "^4.42.1",
