@@ -33,3 +33,16 @@ footer {
   color: rgb(221, 221, 221);
   padding-left: 50vw;
 }
+
+.navbar-nav>li:hover{
+  background-color: rgb(65, 61, 61);
+}
+
+.active-custom{
+  border-left-color: rgb(68, 66, 66);  
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right-color: rgb(68, 66, 66);  
+  border-right-width: 2px;
+  border-right-style: solid;
+}

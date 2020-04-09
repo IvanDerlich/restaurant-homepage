@@ -36,7 +36,11 @@ module.exports = {
             outputPath: ""
           }
         }
-      }
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
     ]
   }
 };
