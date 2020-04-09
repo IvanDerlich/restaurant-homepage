@@ -17,11 +17,19 @@ function loadHtml(component, className){
 loadHtml(navbar,"navbar-content")
 loadHtml("", "main")
 loadHtml(footer,"footer-content")
+
 const main = document.getElementById('main')
-const homeElem = document.createElement('div')
-homeElem.id = 'home'
-homeElem.innerHTML = home
-main.appendChild(homeElem)
+
+function renderContent(htmlString,id){
+  while (main.firstChild) {
+    main.removeChild(main.lastChild);
+  }
+  const elem = document.createElement('div')
+  elem.id = id
+  elem.innerHTML = htmlString
+  main.appendChild(elem)
+}
+renderContent(home,'home');
 
 var homeBtn = document.getElementById("home-lnk")
 var menuBtn = document.getElementById("menu-lnk")
@@ -36,7 +44,8 @@ function selectHome(){
 
 homeBtn.addEventListener("click",()=>{
   console.log("home")
-  selectHome()
+  selectHome()  
+  renderContent(home,'home');
 })
 
 menuBtn.addEventListener("click",()=>{
@@ -45,6 +54,8 @@ menuBtn.addEventListener("click",()=>{
 
   homeBtn.classList.remove("active-custom")  
   contactBtn.classList.remove("active-custom")
+  
+  renderContent(menu,'menu');
 })
 
 contactBtn.addEventListener("click",()=>{
@@ -53,9 +64,10 @@ contactBtn.addEventListener("click",()=>{
 
   homeBtn.classList.remove("active-custom")
   menuBtn.classList.remove("active-custom")
+  
+  renderContent(contact,'contact');
 })
 
 const brand = document.getElementById('navbar-brand')
-//prevent default behaviour when clicking
 
 selectHome();
