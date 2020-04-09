@@ -1,7 +1,9 @@
 import "./style.scss"
 import navbar from './modules/navbar.html' 
-import main from './modules/main.html'
+import home from './modules/home.html'
 import footer from './modules/footer.html'
+import contact from './modules/contact.html'
+import menu from './modules/menu.html'
 
 const anchor = document.getElementById("content")
 
@@ -12,13 +14,14 @@ function loadHtml(component, className){
   anchor.appendChild(elem)  
 }
 
-function loadWebsite(){
-  loadHtml(navbar,"navbar-content")
-  loadHtml(main, "main-content")
-  loadHtml(footer,"footer-content")    
-}
-
-loadWebsite()
+loadHtml(navbar,"navbar-content")
+loadHtml("", "main")
+loadHtml(footer,"footer-content")
+const main = document.getElementById('main')
+const homeElem = document.createElement('div')
+homeElem.id = 'home'
+homeElem.innerHTML = home
+main.appendChild(homeElem)
 
 var homeBtn = document.getElementById("home-lnk")
 var menuBtn = document.getElementById("menu-lnk")
@@ -51,5 +54,8 @@ contactBtn.addEventListener("click",()=>{
   homeBtn.classList.remove("active-custom")
   menuBtn.classList.remove("active-custom")
 })
+
+const brand = document.getElementById('navbar-brand')
+//prevent default behaviour when clicking
 
 selectHome();
