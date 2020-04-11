@@ -65,9 +65,13 @@ Pick a directory of your choosing and paste this command in the terminal:
 
 ### For code reviewers
 
-Run this command to see the project:
+Run this command to see the project in production:
 
     git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && git checkout features && npm install && npm run build
+
+Run this command to see the project in development:
+
+    git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && git checkout features && npm install && npm run start
 
 ## Author of this project
 

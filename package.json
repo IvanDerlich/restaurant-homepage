@@ -8,13 +8,11 @@
     "build-no-open": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open",
     "watch": "webpack --mode production --watch",
-
     "b": "webpack --mode production && xdg-open ./dist/index.html",
     "bn": "webpack --mode production",
     "s": "webpack-dev-server --mode development --open",
     "w": "webpack --mode production --watch"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IvanDerlich/restaurant-homepage.git"
@@ -33,7 +31,8 @@
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
