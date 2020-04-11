@@ -2,15 +2,13 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-module.exports = {
+const config = {
   entry: './src/index.js',
   output: {
-    filename: 'main.[hash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
 
   plugins: [
-    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Output Management',
       template: './src/index.html',
@@ -43,4 +41,17 @@ module.exports = {
       },
     ],
   },
+};
+
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+    config.devtool = 'source-map';
+    config.output.filename = 'main.bundle.js';
+  }
+
+  if (argv.mode === 'production') {
+    config.plugins.push(new CleanWebpackPlugin());
+    config.output.filename = 'main.[hash].bundle.js';
+  }
+  return config;
 };

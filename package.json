@@ -4,9 +4,12 @@
   "description": "A restaurant homepage",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "watch": "webpack --mode production --watch",
+
+    "s": "webpack-dev-server --mode development --open",
+    "b": "webpack --mode production && firefox ./dist/index.html"    
   },
   
   "repository": {
