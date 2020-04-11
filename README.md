@@ -63,6 +63,11 @@ Pick a directory of your choosing and paste this command in the terminal:
     
   to switch to another [branch](https://github.com/IvanDerlich/restaurant-homepage/branches) of the project    
 
+### For code reviewers
+
+Run this command to see the project:
+
+    git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && git checkout features && npm install && npm run build
 
 ## Author of this project
 
