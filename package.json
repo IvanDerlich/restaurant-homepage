@@ -4,12 +4,15 @@
   "description": "A restaurant homepage",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && xdg-open ./dist/index.html",
+    "build-no-open": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open",
     "watch": "webpack --mode production --watch",
 
+    "b": "webpack --mode production && xdg-open ./dist/index.html",
+    "bn": "webpack --mode production",
     "s": "webpack-dev-server --mode development --open",
-    "b": "webpack --mode production && firefox ./dist/index.html"    
+    "w": "webpack --mode production --watch"
   },
   
   "repository": {
