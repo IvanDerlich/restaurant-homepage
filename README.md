@@ -3,16 +3,15 @@
 This is a project I created requested for Microverse with the purpose of learning to use webpack and npm for front end developers.
 It consists of a simulated restaurant landing website.
 
-## Guides
+## Demo
 
-[Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59622983/)
+![](docs/1.png)
+![](docs/2.png)
+![](docs/3.png)
 
-[Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+## Video
 
-## Techologies used
-
-- Node Package Manager
-- Webpack
+[Here](https://www.youtube.com/watch?v=Fy6IHJ96z7k)
 
 ## Live Version
 
@@ -62,6 +61,17 @@ Pick a directory of your choosing and paste this command in the terminal:
     git checkout [branch-name]
     
   to switch to another [branch](https://github.com/IvanDerlich/restaurant-homepage/branches) of the project    
+
+## Guides
+
+[Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59622983/)
+
+[Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+
+## Techologies used
+
+- Node Package Manager
+- Webpack
 
 ### For code reviewers
 
