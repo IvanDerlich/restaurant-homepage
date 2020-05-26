@@ -1,6 +1,6 @@
 # Restaurant Landing Website
 
-This is a project I created requested for Microverse with the purpose of learning to use webpack and npm for front end developers.
+This is a project I created requested for Microverse to learn to use webpack and npm for front end developers.
 It consists of a simulated restaurant landing website.
 
 ## Demo
@@ -18,14 +18,14 @@ It consists of a simulated restaurant landing website.
 
 [Github Pages](https://ivanderlich.github.io/restaurant-homepage)
 
-## Instalation
+## Installation
 
 Pick a directory of your choosing and paste this command in the terminal:
 
     git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && npm install && npm run build
 
 
-### Description of Instalation
+### Description of Installation
 
     git clone https://github.com/IvanDerlich/restaurant-homepage.git  
   
@@ -47,7 +47,7 @@ Pick a directory of your choosing and paste this command in the terminal:
   
   if you want to run the website in development mode
 
-### Notes of instalation
+### Notes about installation
 
   Between the command 
 
@@ -69,7 +69,7 @@ Pick a directory of your choosing and paste this command in the terminal:
 
 [Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
-## Techologies used
+## Technologies used
 
 - Node Package Manager
 - Webpack
