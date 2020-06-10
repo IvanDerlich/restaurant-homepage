@@ -40,15 +40,15 @@ If the previous command doesn't open the index.html file in you default browser,
 
 ## Guides
 
-[Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59622983/)
+[Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59622983/).
 
-[Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+[Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page).
 
 ## Technologies used
 
-- Node Package Manager
-- Webpack
+- Node Package Manager.
+- Webpack.
 
 ## Author of this project
 
-[Ivan Derlich](https://github.com/IvanDerlich/)
+[Ivan Derlich](https://github.com/IvanDerlich/).
