@@ -1,6 +1,6 @@
 # Restaurant Landing Website
 
-A restaurant landing website using webpack and npm.
+A restaurant landing website using Webpack and NPM.
 
 ## Demo
 
@@ -17,7 +17,7 @@ A restaurant landing website using webpack and npm.
 
 [Github Pages](https://ivanderlich.github.io/restaurant-homepage).
 
-## Instalation
+## Installation
 
 Download the source code from GitHub:
 
