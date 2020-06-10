@@ -1,6 +1,6 @@
 # Restaurant Landing Website
 
-This is a project I created requested for Microverse to learn to use webpack and npm for front end developers.
+This is a project I requested for Microverse to learn to use webpack and npm for front end developers.
 It consists of a simulated restaurant landing website.
 
 ## Demo
@@ -18,34 +18,28 @@ It consists of a simulated restaurant landing website.
 
 [Github Pages](https://ivanderlich.github.io/restaurant-homepage)
 
-## Installation
+## Instalation
 
-Pick a directory of your choosing and paste this command in the terminal:
+Pick a directory of your choosing and download the source code from GitHub:
 
-    git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && npm install && npm run build
+    git clone https://github.com/IvanDerlich/to-do.git  
 
+Move to the directory of the downloaded folder:
 
-### Description of Installation
+    cd to-do
 
-    git clone https://github.com/IvanDerlich/restaurant-homepage.git  
-  
-  Downloads the source code from github
-
-    cd restaurant-homepage
-  
-  Changes directory to the downloaded context
+Install project's dependencies:
 
     npm install
 
-  Installs project's dependencies
+Build the project and open the file you've just created (dist/index.html) in your default browser:
 
     npm run build
 
-  Builds the project and opens the file you've just created (dist/index.html) in your default browser. You can also substitute the build command with 
+You can also substitute the build command with to work on developer mode:
 
-    npm run start 
-  
-  if you want to run the website in development mode
+    npm run start  
+
 
 ### Notes about installation
 
