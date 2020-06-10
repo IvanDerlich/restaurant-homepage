@@ -11,11 +11,11 @@ A restaurant landing website using webpack and npm.
 
 ## Video
 
-[Here](https://www.youtube.com/watch?v=Fy6IHJ96z7k)
+[Here](https://www.youtube.com/watch?v=Fy6IHJ96z7k).
 
 ## Live Version
 
-[Github Pages](https://ivanderlich.github.io/restaurant-homepage)
+[Github Pages](https://ivanderlich.github.io/restaurant-homepage).
 
 ## Instalation
 
