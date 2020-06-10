@@ -22,11 +22,11 @@ It consists of a simulated restaurant landing website.
 
 Download the source code from GitHub:
 
-    git clone https://github.com/IvanDerlich/to-do.git  
+    git clone https://github.com/IvanDerlich/restaurant-homepage.git  
 
 Move to the directory of the downloaded folder:
 
-    cd to-do
+    cd restaurant-homepage
 
 Install project's dependencies:
 
@@ -43,19 +43,19 @@ You can also substitute the build command with to work on developer mode:
 
 ### Notes about installation
 
-  Between the command 
+  Between the command:
 
     cd restaurant-homepage
 
-  and 
+  and:
 
     npm install
      
-  you can add a command 
+  you can add a command:
     
     git checkout [branch-name]
     
-  to switch to another [branch](https://github.com/IvanDerlich/restaurant-homepage/branches) of the project    
+  to switch to another [branch](https://github.com/IvanDerlich/restaurant-homepage/branches) of the project.
 
 ## Guides
 
