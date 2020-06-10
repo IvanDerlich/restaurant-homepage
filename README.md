@@ -52,16 +52,6 @@ You can also substitute the build command with to work on developer mode:
 - Node Package Manager
 - Webpack
 
-### For code reviewers
-
-Run this command to see the project in production:
-
-    git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && git checkout features && npm install && npm run build
-
-Run this command to see the project in development:
-
-    git clone https://github.com/IvanDerlich/restaurant-homepage.git && cd restaurant-homepage && git checkout features && npm install && npm run start
-
 ## Author of this project
 
 [Ivan Derlich](https://github.com/IvanDerlich/)
