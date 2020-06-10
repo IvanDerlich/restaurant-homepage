@@ -41,22 +41,6 @@ You can also substitute the build command with to work on developer mode:
     npm run start  
 
 
-### Notes about installation
-
-  Between the command:
-
-    cd restaurant-homepage
-
-  and:
-
-    npm install
-     
-  you can add a command:
-    
-    git checkout [branch-name]
-    
-  to switch to another [branch](https://github.com/IvanDerlich/restaurant-homepage/branches) of the project.
-
 ## Guides
 
 [Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/59622983/)
