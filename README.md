@@ -1,7 +1,6 @@
 # Restaurant Landing Website
 
-This is a project I requested for Microverse to learn to use webpack and npm for front end developers.
-It consists of a simulated restaurant landing website.
+A restaurant landing website using webpack and npm.
 
 ## Demo
 
