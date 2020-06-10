@@ -15,7 +15,7 @@ A restaurant landing website using Webpack and NPM.
 
 ## Live Version
 
-[Github Pages](https://ivanderlich.github.io/restaurant-homepage).
+[GitHub Pages](https://ivanderlich.github.io/restaurant-homepage).
 
 ## Installation
 
