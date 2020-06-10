@@ -32,13 +32,11 @@ Install project's dependencies:
 
     npm install
 
-Build the project and open the file you've just created (dist/index.html) in your default browser:
+Build the project:
 
     npm run build
 
-You can also substitute the build command with to work on developer mode:
-
-    npm run start  
+If the previous command doesn't open the index.html file in you default browser, then open it manually. It's located in the 'dist' folder.
 
 
 ## Guides
